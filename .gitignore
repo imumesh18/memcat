@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+.hypothesis/
+bench/results/*.tmp
+.venv-*/
+memcat_demo.wav
+bench/data/
+bench/abx/
+.claude/
+# Provider keys for recording replay fixtures. Never committed.
+.env
+.env.*
+!.env.test.example
+bench/listen/
+# Recorded provider traffic: kept locally (provider terms), see CONTRIBUTING.md.
+tests/fixtures/
