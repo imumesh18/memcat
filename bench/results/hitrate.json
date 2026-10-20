@@ -1,0 +1,126 @@
+{
+  "k": 3,
+  "min_clause_words": 3,
+  "abcd": {
+    "sentence_level": {
+      "calls": 10042,
+      "chars_total": 4800840,
+      "share_cached": 0.2591,
+      "share_saved_net": 0.2591,
+      "chars_rendered": 0,
+      "entries_captured_free": 3253,
+      "share_blocked_pii": 0.0682,
+      "responses_fully_cached": 0.3481,
+      "responses_with_a_hit": 0.4509,
+      "entries": 3253,
+      "entries_with_digits": 0
+    },
+    "clause_level": {
+      "calls": 10042,
+      "chars_total": 4800840,
+      "share_cached": 0.3235,
+      "share_saved_net": 0.3191,
+      "chars_rendered": 21079,
+      "entries_captured_free": 3340,
+      "share_blocked_pii": 0.0572,
+      "responses_fully_cached": 0.3851,
+      "responses_with_a_hit": 0.6066,
+      "entries": 4235,
+      "entries_with_digits": 0
+    },
+    "test_split_cold": {
+      "calls": 2008,
+      "chars_total": 965632,
+      "share_cached": 0.2398,
+      "share_saved_net": 0.235,
+      "chars_rendered": 4624,
+      "entries_captured_free": 764,
+      "share_blocked_pii": 0.0564,
+      "responses_fully_cached": 0.2889,
+      "responses_with_a_hit": 0.502,
+      "entries": 998,
+      "entries_with_digits": 0
+    },
+    "test_split_warmed_from_train": {
+      "calls": 2008,
+      "chars_total": 965632,
+      "share_cached": 0.2739,
+      "share_saved_net": 0.2598,
+      "chars_rendered": 13682,
+      "entries_captured_free": 391,
+      "share_blocked_pii": 0.0564,
+      "responses_fully_cached": 0.3316,
+      "responses_with_a_hit": 0.5522,
+      "entries": 1014,
+      "entries_with_digits": 0
+    },
+    "sweep_k": {
+      "2": 0.3479,
+      "3": 0.3235,
+      "4": 0.3068,
+      "5": 0.2943
+    }
+  },
+  "hvb": {
+    "clause_level": {
+      "calls": 1446,
+      "chars_total": 435127,
+      "share_cached": 0.5397,
+      "share_saved_net": 0.5397,
+      "chars_rendered": 0,
+      "entries_captured_free": 311,
+      "share_blocked_pii": 0.1511,
+      "responses_fully_cached": 0.5901,
+      "responses_with_a_hit": 0.5901,
+      "entries": 311,
+      "entries_with_digits": 0
+    }
+  },
+  "tau2": {
+    "airline": {
+      "clause_level": {
+        "calls": 50,
+        "chars_total": 120288,
+        "share_cached": 0.0586,
+        "share_saved_net": 0.052,
+        "chars_rendered": 804,
+        "entries_captured_free": 27,
+        "share_blocked_pii": 0.3317,
+        "responses_fully_cached": 0.142,
+        "responses_with_a_hit": 0.5891,
+        "entries": 68,
+        "entries_with_digits": 0
+      }
+    },
+    "retail": {
+      "clause_level": {
+        "calls": 114,
+        "chars_total": 277424,
+        "share_cached": 0.1232,
+        "share_saved_net": 0.1136,
+        "chars_rendered": 2652,
+        "entries_captured_free": 66,
+        "share_blocked_pii": 0.269,
+        "responses_fully_cached": 0.1782,
+        "responses_with_a_hit": 0.7628,
+        "entries": 169,
+        "entries_with_digits": 0
+      }
+    },
+    "telecom": {
+      "clause_level": {
+        "calls": 114,
+        "chars_total": 572371,
+        "share_cached": 0.1678,
+        "share_saved_net": 0.1485,
+        "chars_rendered": 10995,
+        "entries_captured_free": 285,
+        "share_blocked_pii": 0.1377,
+        "responses_fully_cached": 0.0909,
+        "responses_with_a_hit": 0.8225,
+        "entries": 594,
+        "entries_with_digits": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pcm16@8000": {
+    "kb_per_min": 926.9
+  },
+  "mulaw@8000": {
+    "kb_per_min": 463.5
+  },
+  "opus@8000": {
+    "kb_per_min": 174.0
+  },
+  "pcm16@16000": {
+    "kb_per_min": 1855.1
+  },
+  "mulaw@16000": {
+    "kb_per_min": 927.6
+  },
+  "opus@16000": {
+    "kb_per_min": 232.1
+  },
+  "pcm16@24000": {
+    "kb_per_min": 2782.6
+  },
+  "mulaw@24000": {
+    "kb_per_min": 1391.4
+  },
+  "opus@24000": {
+    "kb_per_min": 236.4
+  }
+}

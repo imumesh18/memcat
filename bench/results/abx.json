@@ -1,0 +1,17 @@
+{
+  "trials": 30,
+  "share_chars_cached_in_B": 0.603,
+  "join_pause_delta_ms": {
+    "p50": 45.0,
+    "p90": 121.0
+  },
+  "click_ratio_B_over_A": {
+    "p50": 0.99,
+    "max": 1.54
+  },
+  "loudness_delta_lufs": {
+    "p50": 0.22,
+    "max": 0.62
+  },
+  "kit": "bench/abx"
+}

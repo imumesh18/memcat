@@ -1,0 +1,11 @@
+{
+  "split_30_words_us": 35.657,
+  "key_context_memo_us": 5.443,
+  "key_digest_us": 4.416,
+  "key_build_and_hash_us": 10.148,
+  "l1_get_touch_50k_us": 0.075,
+  "index_check_us": 0.104,
+  "decode_3s_mulaw_us": 10.818,
+  "opus_decode_3s_us": 10235.767,
+  "miss_sentence_total_us": 63.228
+}

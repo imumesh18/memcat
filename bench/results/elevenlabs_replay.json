@@ -1,0 +1,338 @@
+{
+  "provider": "elevenlabs",
+  "model": "eleven_flash_v2_5",
+  "asr": "small.en",
+  "recordings": 27,
+  "time_to_first_audio_ms": {
+    "provider": {
+      "n": 93,
+      "p50": 226.6,
+      "p90": 291.6,
+      "max": 842.7
+    },
+    "plain": {
+      "n": 6,
+      "p50": 346.1,
+      "p90": 361.7,
+      "max": 361.7
+    },
+    "memcat_hit_opener": {
+      "n": 9,
+      "p50": 9.2,
+      "p90": 13.8,
+      "max": 13.8
+    }
+  },
+  "wer": {
+    "plain": 0.0,
+    "memcat": 0.0033333333333333335
+  },
+  "runs": [
+    {
+      "scenario": "error_bad_voice",
+      "take": 0,
+      "replay_problems": 0,
+      "audio_s": 0.0,
+      "ttfa_ms": [],
+      "hits": 0
+    },
+    {
+      "scenario": "error_bad_voice",
+      "take": 1,
+      "replay_problems": 0,
+      "audio_s": 0.0,
+      "ttfa_ms": [],
+      "hits": 0
+    },
+    {
+      "scenario": "error_bad_voice",
+      "take": 2,
+      "replay_problems": 0,
+      "audio_s": 0.0,
+      "ttfa_ms": [],
+      "hits": 0
+    },
+    {
+      "scenario": "memcat_http_mixed",
+      "take": 0,
+      "replay_problems": 0,
+      "audio_s": 9.59,
+      "ttfa_ms": [
+        2.9
+      ],
+      "hits": 3,
+      "heard": "Thanks for waiting today. Your order 48213 has shipped, and it should arrive soon.  The tracking code is ZX81QP. Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "memcat_http_mixed",
+      "take": 1,
+      "replay_problems": 0,
+      "audio_s": 9.47,
+      "ttfa_ms": [
+        2.4
+      ],
+      "hits": 3,
+      "heard": "Thanks for waiting today. Your order 48213 has shipped, and it should arrive soon. The  tracking code is ZX81QP. Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "memcat_http_mixed",
+      "take": 2,
+      "replay_problems": 0,
+      "audio_s": 9.41,
+      "ttfa_ms": [
+        2.4
+      ],
+      "hits": 3,
+      "heard": "Thanks for waiting today.  Your order 48213 has shipped, and it should arrive soon.  The tracking code is ZX81QP.  Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "memcat_ws_interrupt",
+      "take": 0,
+      "replay_problems": 0,
+      "audio_s": 3.84,
+      "ttfa_ms": [
+        16.5,
+        178.8
+      ],
+      "hits": 4
+    },
+    {
+      "scenario": "memcat_ws_interrupt",
+      "take": 1,
+      "replay_problems": 0,
+      "audio_s": 3.52,
+      "ttfa_ms": [
+        11.0,
+        172.4
+      ],
+      "hits": 4
+    },
+    {
+      "scenario": "memcat_ws_interrupt",
+      "take": 2,
+      "replay_problems": 0,
+      "audio_s": 3.73,
+      "ttfa_ms": [
+        11.3,
+        216.6
+      ],
+      "hits": 4
+    },
+    {
+      "scenario": "memcat_ws_mixed",
+      "take": 0,
+      "replay_problems": 0,
+      "audio_s": 9.68,
+      "ttfa_ms": [
+        13.8
+      ],
+      "hits": 3,
+      "heard": "Thanks for waiting today. Your order 48213 has shipped, and it should arrive soon.  The tracking code is ZX81QP. Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "memcat_ws_mixed",
+      "take": 1,
+      "replay_problems": 0,
+      "audio_s": 9.5,
+      "ttfa_ms": [
+        12.0
+      ],
+      "hits": 3,
+      "heard": "Thanks for waiting today. Your order 48213 has shipped, and it should arrive soon.  The tracking code is ZEX81QP. Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "memcat_ws_mixed",
+      "take": 2,
+      "replay_problems": 0,
+      "audio_s": 9.5,
+      "ttfa_ms": [
+        10.9
+      ],
+      "hits": 3,
+      "heard": "Thanks for waiting today. Your order 48213 has shipped, and it should arrive soon.  The tracking code is ZEX81QP. Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "memcat_ws_render",
+      "take": 0,
+      "replay_problems": 0,
+      "audio_s": 9.16,
+      "ttfa_ms": [
+        13.3
+      ],
+      "hits": 3,
+      "heard": "Thanks for waiting today. Your order 48213 is shipped, and it should arrive soon.  The tracking code is ZEX81QP. Is there anything else I can help with?",
+      "wer": 0.04
+    },
+    {
+      "scenario": "memcat_ws_render",
+      "take": 1,
+      "replay_problems": 0,
+      "audio_s": 9.27,
+      "ttfa_ms": [
+        16.4
+      ],
+      "hits": 3,
+      "heard": "Thanks for waiting today. Your order 48213 has shipped, and it should arrive soon.  The tracking code is ZAX81QP. Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "memcat_ws_render",
+      "take": 2,
+      "replay_problems": 0,
+      "audio_s": 9.66,
+      "ttfa_ms": [
+        12.9
+      ],
+      "hits": 3,
+      "heard": "Thanks for waiting today. Your order 48213 has shipped, and it should arrive soon.  The tracking code is ZX81QP. Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "memcat_ws_two_turns",
+      "take": 0,
+      "replay_problems": 0,
+      "audio_s": 11.14,
+      "ttfa_ms": [
+        9.2,
+        239.9
+      ],
+      "hits": 4,
+      "heard": "Thanks for waiting today.  Your order 48213 has shipped, and it should arrive soon.  The tracking code is ZX81QP.  Is there anything else I can help with?  Sure.  Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "memcat_ws_two_turns",
+      "take": 1,
+      "replay_problems": 0,
+      "audio_s": 11.52,
+      "ttfa_ms": [
+        3.1,
+        273.6
+      ],
+      "hits": 4,
+      "heard": "Thanks for waiting today. Your order 48213 has shipped, and it should arrive soon.  The tracking code is ZEX81QP. Is there anything else I can help with?  Sure. Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "memcat_ws_two_turns",
+      "take": 2,
+      "replay_problems": 0,
+      "audio_s": 12.06,
+      "ttfa_ms": [
+        12.7,
+        492.8
+      ],
+      "hits": 4,
+      "heard": "Thanks for waiting today. Your order 48213 has shipped, and it should arrive soon.  The tracking code is ZX81QP. Is there anything else I can help with?  Sure! Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "plain_http",
+      "take": 0,
+      "replay_problems": 0,
+      "audio_s": 9.71,
+      "ttfa_ms": [
+        346.1
+      ],
+      "hits": 0,
+      "heard": "Thanks for waiting today, your order 48213 has shipped, and it should arrive soon.  The tracking code is ZX81QP.  Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "plain_http",
+      "take": 1,
+      "replay_problems": 0,
+      "audio_s": 10.26,
+      "ttfa_ms": [
+        361.7
+      ],
+      "hits": 0,
+      "heard": "Thanks for waiting today. Your order 48213 has shipped, and it should arrive soon. The tracking code is ZX81QP. Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "plain_http",
+      "take": 2,
+      "replay_problems": 0,
+      "audio_s": 9.15,
+      "ttfa_ms": [
+        359.3
+      ],
+      "hits": 0,
+      "heard": "Thanks for waiting today. Your order 48213 has shipped and it should arrive soon. The  tracking code is ZX81QP. Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "plain_ws",
+      "take": 0,
+      "replay_problems": 0,
+      "audio_s": 9.0,
+      "ttfa_ms": [
+        260.1
+      ],
+      "hits": 0,
+      "heard": "Thanks for waiting today. Your order 48213 has shipped, and it should arrive soon.  The tracking code is ZX81QP. Is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "plain_ws",
+      "take": 1,
+      "replay_problems": 0,
+      "audio_s": 9.76,
+      "ttfa_ms": [
+        238.0
+      ],
+      "hits": 0,
+      "heard": "Thanks for waiting today, your order 48213 has shipped, and it should arrive soon.  The tracking code is ZX81QP, is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "plain_ws",
+      "take": 2,
+      "replay_problems": 0,
+      "audio_s": 9.23,
+      "ttfa_ms": [
+        250.3
+      ],
+      "hits": 0,
+      "heard": "Thanks for waiting today, your order 48213 has shipped, and it should arrive soon.  The tracking code is ZX81QP, is there anything else I can help with?",
+      "wer": 0.0
+    },
+    {
+      "scenario": "plain_ws_interrupt",
+      "take": 0,
+      "replay_problems": 0,
+      "audio_s": 1.97,
+      "ttfa_ms": [
+        467.5
+      ],
+      "hits": 0
+    },
+    {
+      "scenario": "plain_ws_interrupt",
+      "take": 1,
+      "replay_problems": 0,
+      "audio_s": 1.89,
+      "ttfa_ms": [
+        569.2
+      ],
+      "hits": 0
+    },
+    {
+      "scenario": "plain_ws_interrupt",
+      "take": 2,
+      "replay_problems": 0,
+      "audio_s": 2.04,
+      "ttfa_ms": [
+        467.9
+      ],
+      "hits": 0
+    }
+  ]
+}

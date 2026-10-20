@@ -1,0 +1,507 @@
+{
+  "concurrency": 100,
+  "minutes": 5.0,
+  "store": "redis",
+  "calls": 20822,
+  "calls_heard_wrong": 0,
+  "call_seconds_p50": 1.02,
+  "loop_lag_ms": {
+    "p50": 14.62,
+    "p99": 147.97,
+    "max": 223.0
+  },
+  "hit_rate_chars": 0.0,
+  "entries_stored": 0,
+  "captures": 0,
+  "renders": 0,
+  "dropped_jobs": 0,
+  "store_errors": 0,
+  "after_warmup": {
+    "rss_mb": [
+      193.6,
+      195.8
+    ],
+    "tasks": [
+      1517,
+      1491
+    ],
+    "connections": [
+      0,
+      0
+    ]
+  },
+  "timeline": [
+    {
+      "t_s": 5,
+      "rss_mb": 177.1,
+      "tasks": 1549,
+      "calls_done": 332,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 10,
+      "rss_mb": 192.6,
+      "tasks": 1492,
+      "calls_done": 685,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 15,
+      "rss_mb": 192.9,
+      "tasks": 1490,
+      "calls_done": 1036,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 20,
+      "rss_mb": 192.9,
+      "tasks": 1495,
+      "calls_done": 1390,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 25,
+      "rss_mb": 192.9,
+      "tasks": 1490,
+      "calls_done": 1738,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 30,
+      "rss_mb": 192.9,
+      "tasks": 1492,
+      "calls_done": 2086,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 36,
+      "rss_mb": 192.9,
+      "tasks": 1517,
+      "calls_done": 2434,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 41,
+      "rss_mb": 193.0,
+      "tasks": 1542,
+      "calls_done": 2778,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 46,
+      "rss_mb": 193.0,
+      "tasks": 1556,
+      "calls_done": 3122,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 51,
+      "rss_mb": 193.4,
+      "tasks": 1475,
+      "calls_done": 3476,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 56,
+      "rss_mb": 193.6,
+      "tasks": 1519,
+      "calls_done": 3824,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 61,
+      "rss_mb": 193.6,
+      "tasks": 1517,
+      "calls_done": 4181,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 66,
+      "rss_mb": 193.6,
+      "tasks": 1490,
+      "calls_done": 4526,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 71,
+      "rss_mb": 193.6,
+      "tasks": 1443,
+      "calls_done": 4878,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 76,
+      "rss_mb": 193.6,
+      "tasks": 1518,
+      "calls_done": 5233,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 81,
+      "rss_mb": 193.6,
+      "tasks": 1462,
+      "calls_done": 5586,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 86,
+      "rss_mb": 193.7,
+      "tasks": 1536,
+      "calls_done": 5940,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 91,
+      "rss_mb": 193.7,
+      "tasks": 1484,
+      "calls_done": 6291,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 97,
+      "rss_mb": 193.7,
+      "tasks": 1452,
+      "calls_done": 6643,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 102,
+      "rss_mb": 193.7,
+      "tasks": 1522,
+      "calls_done": 6992,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 107,
+      "rss_mb": 193.8,
+      "tasks": 1500,
+      "calls_done": 7346,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 112,
+      "rss_mb": 193.8,
+      "tasks": 1473,
+      "calls_done": 7692,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 117,
+      "rss_mb": 193.8,
+      "tasks": 1463,
+      "calls_done": 8047,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 122,
+      "rss_mb": 193.8,
+      "tasks": 1519,
+      "calls_done": 8396,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 127,
+      "rss_mb": 193.8,
+      "tasks": 1465,
+      "calls_done": 8750,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 132,
+      "rss_mb": 193.8,
+      "tasks": 1514,
+      "calls_done": 9092,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 137,
+      "rss_mb": 193.8,
+      "tasks": 1520,
+      "calls_done": 9449,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 142,
+      "rss_mb": 193.8,
+      "tasks": 1499,
+      "calls_done": 9806,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 147,
+      "rss_mb": 194.1,
+      "tasks": 1507,
+      "calls_done": 10129,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 153,
+      "rss_mb": 194.1,
+      "tasks": 1423,
+      "calls_done": 10469,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 158,
+      "rss_mb": 194.1,
+      "tasks": 1475,
+      "calls_done": 10819,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 163,
+      "rss_mb": 194.1,
+      "tasks": 1491,
+      "calls_done": 11169,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 168,
+      "rss_mb": 194.1,
+      "tasks": 1483,
+      "calls_done": 11520,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 173,
+      "rss_mb": 194.1,
+      "tasks": 1503,
+      "calls_done": 11866,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 178,
+      "rss_mb": 194.2,
+      "tasks": 1523,
+      "calls_done": 12222,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 183,
+      "rss_mb": 194.2,
+      "tasks": 1512,
+      "calls_done": 12569,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 188,
+      "rss_mb": 194.2,
+      "tasks": 1466,
+      "calls_done": 12918,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 193,
+      "rss_mb": 194.2,
+      "tasks": 1506,
+      "calls_done": 13267,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 198,
+      "rss_mb": 194.2,
+      "tasks": 1535,
+      "calls_done": 13610,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 203,
+      "rss_mb": 194.2,
+      "tasks": 1494,
+      "calls_done": 13968,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 208,
+      "rss_mb": 194.2,
+      "tasks": 1476,
+      "calls_done": 14313,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 213,
+      "rss_mb": 194.2,
+      "tasks": 1555,
+      "calls_done": 14661,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 219,
+      "rss_mb": 194.2,
+      "tasks": 1507,
+      "calls_done": 15014,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 224,
+      "rss_mb": 194.3,
+      "tasks": 1463,
+      "calls_done": 15364,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 229,
+      "rss_mb": 194.5,
+      "tasks": 1502,
+      "calls_done": 15713,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 234,
+      "rss_mb": 195.2,
+      "tasks": 1509,
+      "calls_done": 16072,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 239,
+      "rss_mb": 195.2,
+      "tasks": 1475,
+      "calls_done": 16427,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 244,
+      "rss_mb": 195.2,
+      "tasks": 1492,
+      "calls_done": 16766,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 249,
+      "rss_mb": 195.3,
+      "tasks": 1495,
+      "calls_done": 17108,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 254,
+      "rss_mb": 195.3,
+      "tasks": 1504,
+      "calls_done": 17463,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 259,
+      "rss_mb": 195.3,
+      "tasks": 1482,
+      "calls_done": 17802,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 265,
+      "rss_mb": 195.8,
+      "tasks": 1517,
+      "calls_done": 18161,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 270,
+      "rss_mb": 195.8,
+      "tasks": 1519,
+      "calls_done": 18508,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 275,
+      "rss_mb": 195.8,
+      "tasks": 1530,
+      "calls_done": 18863,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 280,
+      "rss_mb": 195.8,
+      "tasks": 1498,
+      "calls_done": 19209,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 285,
+      "rss_mb": 195.8,
+      "tasks": 1545,
+      "calls_done": 19563,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 290,
+      "rss_mb": 195.8,
+      "tasks": 1517,
+      "calls_done": 19920,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 295,
+      "rss_mb": 195.8,
+      "tasks": 1469,
+      "calls_done": 20273,
+      "entries": 0,
+      "connections": 0
+    },
+    {
+      "t_s": 300,
+      "rss_mb": 195.8,
+      "tasks": 1491,
+      "calls_done": 20625,
+      "entries": 0,
+      "connections": 0
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "sample_rate": 24000,
+  "store": "redis",
+  "no_memcat": {
+    "p50_ms": 744.93,
+    "p99_ms": 893.86,
+    "n": 30
+  },
+  "hit_first_use_l2": {
+    "p50_ms": 10.05,
+    "p99_ms": 12.44,
+    "n": 7
+  },
+  "hit_l1": {
+    "p50_ms": 1.0,
+    "p99_ms": 1.23,
+    "n": 30
+  },
+  "cached_opener_then_live": {
+    "p50_ms": 1.37,
+    "p99_ms": 1.79,
+    "n": 30
+  },
+  "miss_no_cacheable_clause": {
+    "p50_ms": 487.98,
+    "p99_ms": 561.27,
+    "n": 30
+  },
+  "same_sentences_no_memcat": {
+    "p50_ms": 494.89,
+    "p99_ms": 559.62,
+    "n": 30
+  },
+  "stats": {
+    "hits": 78,
+    "misses": 60,
+    "chars_cached": 2223,
+    "chars_live": 1360,
+    "chars_rendered": 0,
+    "bytes_stored": 0,
+    "entries_stored": 0,
+    "store_errors": 0,
+    "dropped_jobs": 0,
+    "dropped_bytes": 0,
+    "breaker_open": 0,
+    "renders": 0,
+    "render_failures": 0,
+    "captures": 0,
+    "corrupt_entries": 0,
+    "fallbacks": 0,
+    "hit_rate_chars": 0.6204298074239464,
+    "usd_saved": 0.0,
+    "replay_first_audio_ms_p50": 0.1154579222202301,
+    "replay_first_audio_ms_p99": 10.876124957576394,
+    "mode": "http",
+    "adapter": "generic",
+    "enabled": true
+  }
+}
