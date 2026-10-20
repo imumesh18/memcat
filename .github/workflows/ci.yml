@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_call:   # run by release.yml before publishing
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+      - run: uv sync --locked --python 3.13
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .   # Markdown is excluded in pyproject.toml
+      - run: uv run pyright
+
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12", "3.13"]
+        pipecat: ["1.10.0", "1.11.0", "1.12.0", "1.13.0"]
+    services:
+      redis:
+        image: redis:7
+        ports: ["6379:6379"]
+      valkey:
+        image: valkey/valkey:8
+        ports: ["6380:6379"]
+    env:
+      MEMCAT_REDIS_URLS: redis://localhost:6379/0,redis://localhost:6380/0
+      UV_PYTHON: ${{ matrix.python }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+      - run: sudo apt-get update && sudo apt-get install -y redis-server
+      - run: uv sync --locked --python ${{ matrix.python }}
+      - run: uv pip install "pipecat-ai[kokoro]==${{ matrix.pipecat }}"
+      - run: uv run --no-sync pytest -q --cov=src/memcat/core --cov-report=term --cov-fail-under=90
+
